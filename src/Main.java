@@ -16,3 +16,14 @@ public class Main {
         t2.start();
     }
 }
+
+/*Starte nun beide Threads.
+- Was fällt auf?
+- Versuche das Phänomen zu erklären!
+- Ändere nun dein Programm, sodass jeweils mehr Ausgaben je Thread erfolgen (200, 2000, 20000, ...) - was beobachtest du dabei?
+ */
+
+/*
+Threads werden durchlaufen, bevor ein anderer an die Reihe kommt.
+Wenn man das Programm ändert, fällt mir auf dass zwischen durch auch der andere Thread auftaucht.
+ */
